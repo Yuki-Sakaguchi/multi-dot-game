@@ -1,0 +1,22 @@
+{
+  "name": "multi-dot-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pend": "^1.2.0",
+    "sax": "^1.2.4",
+    "socket.io": "^4.5.4",
+    "tiled-tmx-parser": "^2.0.9"
+  }
+}
